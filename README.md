@@ -172,7 +172,49 @@ This form of modelling supports requirement validation and system planning by ca
 
 The diagram below illustrates the main actors and their interactions with the core functionalities of the Booking Management System:
 
+![alx-booking-uc](https://github.com/user-attachments/assets/d7ac487f-a498-4bbf-a3fd-ce7ddeb9bce0)
 
+> 🎭 Actors like customers and administrators interact with use cases such as booking rooms, managing reservations, and handling user accounts.
+
+## Acceptance Criteria
+
+**Acceptance Criteria** are predefined conditions that a software feature or user story must meet to be considered complete and acceptable by stakeholders. They serve as the **quality gate** that aligns developers, testers, and product owners around clear expectations.
+
+### Why Acceptance Criteria Matter
+
+- **Clarity**: Eliminates ambiguity by translating requirements into testable outcomes.
+- **Validation**: Ensures that features meet user needs and business goals.
+- **Testability**: Enables QA teams to create accurate and automated test cases.
+- **Agile Alignment**: Supports iterative development by providing a “definition of done” for each feature.
+
+### Example: Checkout Feature – Acceptance Criteria
+
+Feature: **Booking Checkout Process**
+
+**Given**:
+
+- A user has selected a room and chosen booking dates
+
+**When**:
+
+- The user clicks the “Checkout” button
+
+**Then**:
+
+- The system should display a summary of the booking (room, dates, total cost)
+- The user should be able to enter payment details and submit the form securely
+- Upon successful payment, the system should:
+ i. Save the booking to the database
+ ii. Send a confirmation email to the user
+iii. Redirect the user to a “Booking Successful” page
+- If payment fails:
+i. An error message should be shown
+ii. The user should not be charged
+iii. The user should remain on the checkout page
+
+> 🧠 This example follows the “Given–When–Then” format commonly used in Behaviour-Driven Development (BDD).
+
+> ✨ Acceptance Criteria transform “just code” into working, validated software that delivers real value.
 
 
 
