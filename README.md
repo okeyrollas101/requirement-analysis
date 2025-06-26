@@ -172,7 +172,7 @@ This form of modelling supports requirement validation and system planning by ca
 
 The diagram below illustrates the main actors and their interactions with the core functionalities of the Booking Management System:
 
-![alx-booking-uc](https://github.com/user-attachments/assets/d7ac487f-a498-4bbf-a3fd-ce7ddeb9bce0)
+![alx-booking-uc.png](https://github.com/user-attachments/assets/d7ac487f-a498-4bbf-a3fd-ce7ddeb9bce0)
 
 > 🎭 Actors like customers and administrators interact with use cases such as booking rooms, managing reservations, and handling user accounts.
 
